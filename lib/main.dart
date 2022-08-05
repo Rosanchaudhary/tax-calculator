@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vehicletax/calculator_screen.dart';
+import 'package:vehicletax/expanding_screen.dart';
  
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Calculator(),
+      home: const ExpandingWidget(),
     );
   }
 }
